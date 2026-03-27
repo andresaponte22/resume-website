@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Andrés Aponte — Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ── Header ── -->
+  <header>
+    <div class="header-inner">
+      <div class="headshot" role="img" aria-label="Andrés Aponte"></div>
+      <div class="header-text">
+        <h1>Andrés Aponte</h1>
+        <p class="tagline">Cloud &amp; Network Engineering</p>
+        <nav class="contact-row">
+          <span>Toronto, ON</span>
+          <span class="sep" aria-hidden="true"></span>
+          <a href="mailto:apontea@sheridancollege.ca">apontea@sheridancollege.ca</a>
+          <span class="sep" aria-hidden="true"></span>
+          <a href="https://github.com/andresaponte22/" target="_blank" rel="noopener">GitHub</a>
+          <span class="sep" aria-hidden="true"></span>
+          <a href="https://www.linkedin.com/in/andres-oaf/" target="_blank" rel="noopener">LinkedIn</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ── Summary ── -->
+    <section>
+      <h2>Profile</h2>
+      <ul class="profile-list">
+        <li>Hands-on experience building serverless applications, AI agent infrastructure, and MCP servers on AWS and Kubernetes</li>
+        <li>Strong foundation in networking fundamentals including TCP/IP, routing protocols (EIGRP, OSPF), and firewall configuration</li>
+        <li>Proficient in Linux system administration and scripting with Python and Bash</li>
+        <li>Experience troubleshooting complex technical issues in fast-paced, high-pressure environments</li>
+        <li>Strong leadership and coaching skills, demonstrated through training new team members</li>
+        <li>Fluent in Spanish and English</li>
+      </ul>
+    </section>
+
+    <!-- ── Education ── -->
+    <section>
+      <h2>Education</h2>
+      <div class="timeline-item">
+        <div class="timeline-header">
+          <div>
+            <h3>Sheridan College</h3>
+            <p class="subtitle">Advanced Diploma in Network Engineering Technology</p>
+          </div>
+          <div class="timeline-meta">
+            <span class="location">Oakville, ON</span>
+            <span class="date">Sep 2023 – Sep 2027</span>
+          </div>
+        </div>
+        <ul>
+          <li>Relevant Courses: Cloud Architecting (AWS), Agent AI &amp; Automation, Container Orchestration (Docker/Kubernetes), Network Engineering, Linux/Windows Administration, Computer Security, Python for Networks</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ── Technical Skills ── -->
+    <section>
+      <h2>Technical Skills</h2>
+      <div class="skills-table">
+        <div class="skills-row">
+          <span class="skills-label">Cloud &amp; DevOps</span>
+          <div class="skills-values">
+            <span>AWS</span><span>EC2</span><span>S3</span><span>VPC</span><span>Lambda</span><span>API Gateway</span><span>DynamoDB</span><span>CloudWatch</span><span>Docker</span><span>Kubernetes</span><span>Prometheus</span><span>MCP</span>
+          </div>
+        </div>
+        <div class="skills-row">
+          <span class="skills-label">Programming</span>
+          <div class="skills-values">
+            <span>Python</span><span>Bash</span><span>JavaScript</span><span>Node.js</span><span>SQL</span><span>Netmiko</span>
+          </div>
+        </div>
+        <div class="skills-row">
+          <span class="skills-label">Systems</span>
+          <div class="skills-values">
+            <span>Linux</span><span>Ubuntu</span><span>CentOS</span><span>Windows Server</span>
+          </div>
+        </div>
+        <div class="skills-row">
+          <span class="skills-label">Networking</span>
+          <div class="skills-values">
+            <span>TCP/IP</span><span>HTTP</span><span>DNS</span><span>DHCP</span><span>VLANs</span><span>Cisco Routers/Switches</span><span>EIGRP</span><span>OSPF</span><span>Firewall Configuration</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Projects ── -->
+    <section>
+      <h2>Projects</h2>
+
+      <div class="timeline-item">
+        <div class="timeline-header">
+          <h3>Serverless Data Pipeline</h3>
+          <div class="timeline-meta">
+            <span class="date">Sheridan College · 2026</span>
+          </div>
+        </div>
+        <ul>
+          <li>Built end-to-end serverless application using AWS Lambda (Python/boto3), API Gateway, and S3 for automated data ingestion</li>
+          <li>Configured REST API with CORS and Lambda Proxy Integration; implemented UUID-based file storage in S3</li>
+          <li>Developed HTML/JavaScript frontend consuming the API endpoint for real-time data submission and response handling</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-header">
+          <h3>Container Orchestration &amp; Cloud Deployment</h3>
+          <div class="timeline-meta">
+            <span class="date">Sheridan College · 2026</span>
+          </div>
+        </div>
+        <ul>
+          <li>Deployed containerized applications using Docker and Kubernetes for agent-based systems</li>
+          <li>Built and managed AWS infrastructure including EC2 instances, VPCs, and S3 storage</li>
+          <li>Implemented monitoring and logging solutions using CloudWatch and Prometheus for infrastructure observability</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-header">
+          <h3>Network Infrastructure &amp; Automation</h3>
+          <div class="timeline-meta">
+            <span class="date">Sheridan College · 2026</span>
+          </div>
+        </div>
+        <ul>
+          <li>Configured network access control lists and firewall rules to manage traffic flow between subnets</li>
+          <li>Implemented routing protocols (EIGRP, OSPF) on Cisco routers for multi-subnet communication</li>
+          <li>Deployed DHCP and DNS servers in Linux for network service management</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-header">
+          <h3>Network MCP Server &amp; AI Agent Integration</h3>
+          <div class="timeline-meta">
+            <span class="date">Sheridan College · 2026</span>
+          </div>
+        </div>
+        <ul>
+          <li>Built a Python MCP server exposing 5+ tools for programmatic network device management via SSH (Netmiko)</li>
+          <li>Implemented read and write tools with input validation for interfaces, routing tables, VLANs, and configuration changes</li>
+          <li>Integrated MCP server with Claude AI agent to autonomously discover, query, and configure network devices in GNS3</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-header">
+          <h3>Enterprise AgentGateway Deployment</h3>
+          <div class="timeline-meta">
+            <span class="date">Solo.io Workshop · 2026</span>
+          </div>
+        </div>
+        <ul>
+          <li>Deployed AI-native gateway on Kubernetes with full observability stack (Grafana, Prometheus, Tempo)</li>
+          <li>Configured LLM routing, JWT authentication with RBAC, rate limiting, and MCP server connectivity</li>
+          <li>Implemented prompt guardrails for PII leakage prevention, jailbreak detection, and LLM failover across providers</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ── Work Experience ── -->
+    <section>
+      <h2>Experience</h2>
+
+      <div class="timeline-item">
+        <div class="timeline-header">
+          <div>
+            <h3>Field Technician</h3>
+            <p class="subtitle">PhotoboothTO</p>
+          </div>
+          <div class="timeline-meta">
+            <span class="location">Toronto, ON</span>
+            <span class="date">Jul 2022 – Present</span>
+          </div>
+        </div>
+        <ul>
+          <li>Deploy and troubleshoot modular photobooth systems at 100+ events, maintaining 99%+ uptime under pressure</li>
+          <li>Diagnose and resolve hardware/software issues (Windows, cameras, printers) within tight time constraints</li>
+          <li>Train and mentor new team members on technical procedures; consistently receive 5-star reviews</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>
