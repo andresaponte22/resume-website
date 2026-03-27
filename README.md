@@ -2,6 +2,8 @@
 
 A personal portfolio and resume website built with pure HTML and CSS.
 
+**Live Site:** https://andresaponte22.github.io/resume-website/
+
 ## Tech Stack
 
 - HTML5
